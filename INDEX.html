@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Your Name</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #0e1013;
+      color: #fff;
+    }
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 100px;
+      background: #121418;
+      border-bottom: 1px solid #1f1f1f;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .nav-links a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: #00ffff;
+    }
+
+    .home {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 150px 100px;
+      gap: 50px;
+    }
+
+    .home-content {
+      max-width: 600px;
+    }
+
+    .home-content h3 {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .home-content h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .home-content h3 span {
+      color: #00ffff;
+    }
+
+    .home-content p {
+      margin: 20px 0 30px;
+      color: #bbb;
+      line-height: 1.5;
+    }
+
+    .socials {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .socials a {
+      color: #00ffff;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      transform: scale(1.2);
+      color: #fff;
+    }
+
+    .btn {
+      background: #00ffff;
+      color: #000;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      box-shadow: 0 0 20px #00ffff;
+    }
+
+    .home-img {
+      position: relative;
+    }
+
+    .img-box {
+      width: 300px;
+      height: 350px;
+      background: #00ffff;
+      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 50px #00ffff;
+    }
+
+    .img-box img {
+      width: 90%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  </style>
+  <script src=W.js"></script>
+</head>
+<body>
+
+  <header>
+    <h2 class="logo">Portfolio.</h2>
+    <nav class="nav-links">
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Skills</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>ABDUL HAMEED.A</h1>
+      <h3>And I'm a <span>Frontend Developer</span></h3>
+      <p>
+        hand ball played in state level and played kabaddi two times in district level
+      </p>
+
+      <div class="socials">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <a href="#" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+      <div class="img-box">
+        <img src="WhatsApp Image 2025-11-01 at 02.35.24_9f001971.jpg" alt="profile">
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
